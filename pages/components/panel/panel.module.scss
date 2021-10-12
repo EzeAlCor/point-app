@@ -1,0 +1,5 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    border: 1px solid #ccc;
+}

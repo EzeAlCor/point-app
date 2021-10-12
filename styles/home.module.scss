@@ -1,0 +1,9 @@
+
+.main {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    .feed {
+        border: 1px solid #ccc;
+    }
+}
