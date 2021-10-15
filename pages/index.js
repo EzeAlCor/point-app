@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/home.module.scss'
 import Panel from './components/panel/panel'
+import Feed from './components/feed/feed'
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
           <Panel />
         </section>
         <section className={styles.feed}>
-            <p>hola</p>
+          <Feed />
         </section>
         
       </main>
