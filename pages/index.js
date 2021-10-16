@@ -13,14 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header>
+        <Panel />
+      </header>
       <main className={styles.main}>
-        <section>
-          <Panel />
-        </section>
-        <section className={styles.feed}>
-          <Feed />
-        </section>
-        
+        <Feed />
       </main>
 
       

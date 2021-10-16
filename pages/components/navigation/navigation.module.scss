@@ -1,0 +1,32 @@
+.navigationContainer {
+    background-color: #fff;
+    height: 40px;
+    width: 328px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px 0px 16px;
+    .hamburger {
+        height: 24px;
+        width: 24px;
+        background-image: url("/hamburger_icon.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        background-color: #fff;
+    }
+    .searchInput {
+        border: none;
+    }
+    .searchIcon {
+        height: 23.28px;
+        width: 23.91px;
+        background-image: url("/search_icon.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        background-color: #fff;
+    }
+}

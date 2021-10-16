@@ -1,9 +1,9 @@
 .panelContainer {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     border: 1px solid #ccc;
     justify-items: center;
     align-items: center;
-    // height: 100%;
-    // width: 100%;
+    background-color: #f7f7f7;
+    padding: 0px 16px 0px 16px;
 }

@@ -1,9 +1,9 @@
 
-.main {
+.container {
     background-color: #ffffff;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    .feed {
+    .main {
         border: 1px solid #ccc;
     }
 }
